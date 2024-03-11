@@ -13,7 +13,7 @@ jobs:
     steps:
     - name: Step 1  
       id: step1
-      continue-on-error: true. 
+      continue-on-error: true
       run:  'blabalbalba'  
     - name: Step 2  
       if: steps.step1.outcome != 'success'
